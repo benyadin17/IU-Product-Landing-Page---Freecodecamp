@@ -1,0 +1,301 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>IU Product | UAENA</title>
+  </head>
+  <hr>
+  <body>
+    <header>
+      <div class="header" id="header">
+        <div class="image" id="header-image">
+          <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBsRyl2cPKpD-ry4F7zu0ZEzz7pl1uGkwrwUFTp6loUr_cu0f984dJcQ&s=10" alt="uaena"><h1>IU Product | UAENA</h1>
+          </div>
+          <nav>
+     <div id="navbar">
+         <a class="nav-link"href="#sign-up"><b>Sign Up</b></a>
+         <a class="nav-link" href="#features"><b>Features</b></a>
+         <a class="nav-link" href="#product&prices"><b>Product and Prices</b></a>
+         <a class="nav-link" href="#about"><b>About</b></a>
+         </div>
+          </nav>
+      </div>
+    </header>
+    <main>
+      <div class="flex-container0" id="sign-up"></div>
+      <section id="hero">
+        <h2>Made from us to you with love</h2>
+       <form id="form" action="https://www.freecodecamp.com/email-submit">
+         <div id="sign-up"><a>Sign up here</a></div>
+      <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+      <input id="submit" type="submit" value="Get Started" class="btn" />
+    </form>
+        </section>
+      <br>
+      <div class="container" id="features">
+        <section id="ori">
+          <h4>Features</h4>
+         <div class="grid">
+        <div class="icon"><img id="original" src="https://www.flaticon.com/svg/4457/4457367.svg" alt="100% Original"></img></div>
+        <div class="desc">
+          <h3>Original</h3>
+          <p> Our products is 100% original. This will increase the longevity of your purchase.</p>
+        </div>
+        <div class="container">
+          <section id="fast">
+           <div class="grid">
+          <div class="icon"><img id="original" src="https://www.flaticon.com/svg/1287/1287577.svg"></img></div>
+          <div class="desc">
+            <h3>Fast Shipping</h3>
+            <p>We make sure you recieve your product as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+          </div>
+          <div class="container">
+            <section id="Guarantee">
+             <div class="grid">
+            <div class="icon"><img id="original" src="https://www.flaticon.com/svg/985/985774.svg"></img></div>
+            <div class="desc">
+              <h3>Guarantee</h3>
+              <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </div>
+            <div class="video" id="video">
+            <iframe width="850" height="483" src="https://www.youtube.com/embed/YUA3JN22w9o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+            </div>
+        
+        <div class="flex-container" id="product&prices">
+          <div class="product" id="Prices 1">
+            <div class="level">Buy 1</div>
+            <h5>$60</h5>
+            <ol>
+              <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, eligendi!</li>
+            </ol>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="product" id="Price 2">
+            <div class="level">Buy 2</div>
+            <h5>$110</h5>
+            <ol>
+              <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet debitis libero modi!</li>
+            </ol>
+            <button class="btn">Buy</button>
+          </div>
+          <div class="product" id="Price 3">
+            <div class="level">Buy 3</div>
+            <h5>$170</h5>
+            <ol>
+              <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam nihil deleniti soluta vel facere aperiam!</li>
+            </ol>
+            <button class="btn">Buy</button>
+          </div>
+
+        </div>   
+          
+      </div>        
+    </main>
+    <footer>
+      <div class="footer" id="about">  
+      Made by <a href="https://codepen.io/benyadin17/pen/abBgRgY"> Benyadin17</a>
+        <a>&copy; April 2021</a>
+      </div>
+    </footer>
+  </body>
+  
+</html>
+
+<style>
+  * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  background-color:white;
+  justify-content: center;
+  display: sticky;
+}
+#logo{
+  width: 60px;
+  height: 60px;
+}
+body{
+  background-image: linear-gradient(blueviolet, purple);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  text-align: center;
+  color: azure;
+  padding-top: 10px;
+  line-height: 30px;
+}
+#original{
+  width: 150px;
+  height: 150px;
+}
+h1{
+  color:blueviolet;
+  padding-bottom: 20px;
+}
+.image{
+  display: ruby;
+  margin: auto;
+  padding-top: 10px;
+}
+input{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: aliceblue;
+  color: black;
+  font-size: small;
+}
+input[type=button], input[type=submit] {
+  background-color: #330035;
+  border: none;
+  color: white;
+  padding: 12px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#submit:hover{
+  background-color: rgb(63, 0, 58);
+  color:white;
+  font-size: medium;
+}
+nav{
+  display: fixed;
+}
+.sticky {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+#navbar{
+  width: 100%;
+  background-color: rgb(255, 233, 250) ;
+  opacity: 95%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+#navbar a{
+  margin: auto;
+  padding-inline: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+#hero{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+h4{
+  font-size: x-large;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.desc{
+  padding-bottom: 20px;
+}
+.flex-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-between;
+}
+.product{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px;
+  padding-bottom: 20px;
+  margin: auto;
+  border: 3px solid white;
+  border-radius: 20px;
+  width: calc(100% / 3);
+  margin: 30px;
+  line-height: 2;
+}
+.product ol li{
+  list-style: none;
+}
+h5{
+  font-size: large;
+  background-color: aliceblue;
+  color:#330035;
+  border-radius: 30px;
+}
+.video{
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 ratio */
+    padding-top: 25px;
+    height: 0;
+}
+.video iframe{
+  top: 0;
+  left: 0;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding: 10px 20px 10px 20px;
+  z-index: 0;
+}
+footer{
+    box-sizing: border-box;
+    color: purple;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    border-radius: 20px 20px 0px 0px
+}
+
+@media only screen and (max-width: 800px) {
+
+.flex-container {
+  flex-direction: column;
+} 
+.product{
+  width: 60%
+}
+#navbar a{
+  margin: auto;
+  padding-inline: 10px;
+}
+.video iframe{
+  width: 100%;
+  height: 480;
+}
+p{
+  padding: 0px 20px 0px;
+}
+}
+
+</style>
+
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
